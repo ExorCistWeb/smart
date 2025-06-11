@@ -1106,3 +1106,51 @@
         color: #FFFFFF;
         opacity: 0.3;
     }
+    
+    #yandex {
+        background: #FFFFFF;
+        border-radius: 40px;
+    }
+    
+    .yandex_top {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .yandex_top h2 {
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 68px;
+        color: #0A0F13;
+    }
+    
+    .yandex_center {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        margin: 30px 0;
+        justify-content: space-between;
+    }
+    
+    .yandex_center img {
+        height: 84px;
+    }
+    
+    .yandex_bottom {
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+    }
+    
+    .ya_box {
+        gap: 15px;
+        flex: 1 1 calc(33.333% - 20px);
+    }
+    
+    .ya_box img {
+        width: 100%;
+    }
